@@ -12,7 +12,7 @@ namespace DotNetTutorial
             Console.WriteLine("Hello World!");
 
             var names = new string[3]{ "Setefan", "Józek", "Kazik" };
-            Console.WriteLine(names);
+            Console.WriteLine(string.Join(", ", names));
         }
     }
 }
