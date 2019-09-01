@@ -6,6 +6,9 @@ namespace DotNetTutorial
     {
         static void Main(string[] args)
         {
+            var cos = Console.ReadLine();
+
+            Console.WriteLine(cos);
             var calculate = new Calculation();
 
             Console.WriteLine(calculate.Add(100, 100));
