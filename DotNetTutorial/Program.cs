@@ -56,6 +56,8 @@ namespace DotNetTutorial
             {
                 Console.WriteLine(character);
             }
+
+            Console.WriteLine(string.IsNullOrWhiteSpace(" "));
         }
     }
 }
