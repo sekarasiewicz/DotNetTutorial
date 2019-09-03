@@ -7,9 +7,9 @@ namespace DotNetTutorial
         static void Main(string[] args)
         {
             Console.Write("What is the speed limit? ");
-            var cos = Console.ReadLine();
+            //var cos = Console.ReadLine();
 
-            Console.WriteLine(cos);
+            //Console.WriteLine(cos);
             var calculate = new Calculation();
 
             Console.WriteLine(calculate.Add(100, 100));
@@ -58,6 +58,30 @@ namespace DotNetTutorial
             }
 
             Console.WriteLine(string.IsNullOrWhiteSpace(" "));
+
+            var random = new Random();
+            const int passwordLength = 10;
+
+
+            for (var i = 0; i < passwordLength; i++)
+            {
+                Console.WriteLine(random.Next(1, 10));
+            }
+
+            for (var i = 0; i < passwordLength; i++)
+            {
+                Console.Write((char)random.Next(97, 122));
+            }
+
+            var buffer = new char[passwordLength];
+
+            for (var i = 0; i < passwordLength; i++)
+            {
+                buffer[i] = (char)random.Next(97, 122);
+            }
+
+            var password = new string(buffer);
+            Console.WriteLine("\nPassword: " + password);
         }
     }
 }
