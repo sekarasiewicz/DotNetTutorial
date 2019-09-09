@@ -6,11 +6,13 @@ namespace DotNetTutorial
     {
         static void Main(string[] args)
         {
-            var soFar = new SoFar();
+            //var soFar = new SoFar();
             //soFar.call();
 
-            var arrays = new Arrays();
-            arrays.call();
+            //var arrays = new Arrays();
+            //arrays.call();
+
+            new Lists().call();
         }
     }
 }
