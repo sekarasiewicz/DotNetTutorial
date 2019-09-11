@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Globalization;
 
 namespace DotNetTutorial
 {
-    class DateAndTime
+    internal static class DateAndTime
     {
-        public void call()
+        public static void Call()
         {
             var dateTime = new DateTime(2019, 1, 1);
             var now = DateTime.Now;
@@ -51,6 +52,8 @@ namespace DotNetTutorial
             // Parse
 
             Console.WriteLine("Parse: " + TimeSpan.Parse("01:02:03"));
+            
+            var cos = DateTime.Now;
         }
     }
 }

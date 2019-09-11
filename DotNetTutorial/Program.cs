@@ -2,9 +2,9 @@
 
 namespace DotNetTutorial
 {
-    partial class Program
+    internal static partial class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //var soFar = new SoFar();
             //soFar.call();
@@ -13,7 +13,7 @@ namespace DotNetTutorial
             //arrays.call();
 
             //new Lists().call();
-            new DateAndTime().call();
+            DateAndTime.Call();
         }
     }
 }

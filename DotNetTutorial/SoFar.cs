@@ -2,9 +2,9 @@
 
 namespace DotNetTutorial
 {
-    class SoFar
+    internal class SoFar
     {
-        public void call()
+        public void Call()
         {
             Console.Write("What is the speed limit? ");
             //var cos = Console.ReadLine();
@@ -12,7 +12,7 @@ namespace DotNetTutorial
             //Console.WriteLine(cos);
             var calculate = new Calculation();
 
-            Console.WriteLine(calculate.Add(100, 100));
+            Console.WriteLine(Calculation.Add(100, 100));
 
             var a = 10;
             var b = a;
@@ -25,9 +25,9 @@ namespace DotNetTutorial
             var array2 = array1;
 
             array2[0] = 0;
-            float price = true ? 10f : 20f;
+            var price = true ? 10f : 20f;
             Console.WriteLine(price);
-            Console.WriteLine(string.Format("Array1[0]: {0}, array2[0]: {1}", array1[0], array2[0]));
+            Console.WriteLine($"Array1[0]: {array1[0]}, array2[0]: {array2[0]}");
 
             for (var i = 1; i <= 10; i++)
             {
@@ -45,7 +45,7 @@ namespace DotNetTutorial
                 }
             }
 
-            var name = "John Smith";
+            const string name = "John Smith";
 
             for (var i = 0; i < name.Length; i++)
             {

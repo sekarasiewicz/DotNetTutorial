@@ -1,6 +1,6 @@
 ﻿namespace DotNetTutorial
 {
-    partial class Program
+    static partial class Program
     {
         public enum ShippingMethod
         {
