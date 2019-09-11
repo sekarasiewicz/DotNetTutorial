@@ -12,7 +12,8 @@ namespace DotNetTutorial
             //var arrays = new Arrays();
             //arrays.call();
 
-            new Lists().call();
+            //new Lists().call();
+            new DateAndTime().call();
         }
     }
 }
