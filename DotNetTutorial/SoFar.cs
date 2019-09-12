@@ -21,7 +21,7 @@ namespace DotNetTutorial
 
             Console.WriteLine(string.Format("a: {0}, b: {1}", a, b));
 
-            var array1 = new int[3] { 1, 2, 3 };
+            var array1 = new int[3] {1, 2, 3};
             var array2 = array1;
 
             array2[0] = 0;
@@ -70,14 +70,14 @@ namespace DotNetTutorial
 
             for (var i = 0; i < passwordLength; i++)
             {
-                Console.Write((char)random.Next(97, 122));
+                Console.Write((char) random.Next(97, 122));
             }
 
             var buffer = new char[passwordLength];
 
             for (var i = 0; i < passwordLength; i++)
             {
-                buffer[i] = (char)random.Next(97, 122);
+                buffer[i] = (char) random.Next(97, 122);
             }
 
             var password = new string(buffer);

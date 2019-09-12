@@ -9,7 +9,7 @@ namespace DotNetTutorial
         {
             const string sentence = "This is going to be really really really really really really long text.";
             const int maxLength = 20;
-            
+
             if (sentence.Length < maxLength)
             {
                 Console.WriteLine(sentence);
@@ -19,15 +19,16 @@ namespace DotNetTutorial
                 var words = sentence.Split(' ');
                 var totalCharacters = 0;
                 var summaryWords = new List<string>();
-                
+
                 foreach (var word in words)
                 {
                     totalCharacters += word.Length + 1;
                     if (totalCharacters > maxLength) break;
-                    
+
                     summaryWords.Add(word);
                 }
-                Console.WriteLine(string.Join(' ',summaryWords) + "...");
+
+                Console.WriteLine(string.Join(' ', summaryWords) + "...");
             }
         }
     }
