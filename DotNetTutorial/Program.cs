@@ -15,7 +15,9 @@ namespace DotNetTutorial
             //new Lists().call();
 //            DateAndTime.Call();
 
-            StringPlay.Call();
+//            StringPlay.Call();
+
+            StringPlay2.Call();
         }
     }
 }
