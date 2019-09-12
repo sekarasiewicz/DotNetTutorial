@@ -13,7 +13,9 @@ namespace DotNetTutorial
             //arrays.call();
 
             //new Lists().call();
-            DateAndTime.Call();
+//            DateAndTime.Call();
+
+            StringPlay.Call();
         }
     }
 }
