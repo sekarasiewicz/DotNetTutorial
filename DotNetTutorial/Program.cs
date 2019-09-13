@@ -18,7 +18,8 @@ namespace DotNetTutorial
 //            StringPlay.Call();
 
 //            StringPlay2.Call();
-            BuildString.Call();
+//            BuildString.Call();
+            WorkingWithFiles.Call();
         }
     }
 }
