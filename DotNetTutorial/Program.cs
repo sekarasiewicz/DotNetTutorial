@@ -20,7 +20,8 @@ namespace DotNetTutorial
 //            StringPlay2.Call();
 //            BuildString.Call();
 //            WorkingWithFiles.Call();
-            WorkingWithDirectories.Call();
+//            WorkingWithDirectories.Call();
+            WorkingWithPath.Call();
         }
     }
 }
