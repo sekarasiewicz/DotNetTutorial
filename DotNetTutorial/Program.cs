@@ -17,7 +17,8 @@ namespace DotNetTutorial
 
 //            StringPlay.Call();
 
-            StringPlay2.Call();
+//            StringPlay2.Call();
+            BuildString.Call();
         }
     }
 }
